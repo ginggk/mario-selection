@@ -1,3 +1,3 @@
 my end result:
 
-<img src="./biggerproject2.jpg" >
+<img src="https://github.com/ginggk/mario-selection/blob/master/images/biggerproject2.jpg" >
