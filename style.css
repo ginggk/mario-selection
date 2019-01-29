@@ -3,18 +3,12 @@
     padding: 0;
 }
 
+
 .character {
     width: 5rem;
     height: 5rem;
     background-color: lightgray;
     display: inline-block;
-
-}
-
-.image {
-    width: 100%;
-    height: 100%;
-    /* align-content: center; */
 }
 
 .character-details {
