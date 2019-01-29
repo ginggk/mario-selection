@@ -1,49 +1,21 @@
+"use strict";
+
+const BIG_IMAGE_SRC = {
+    Mario: "./images/Mario_Kart.png",
+    Luigi: "./images/Luigi_Kart.png"
+};
+
 function listenForChange() {
-    var characters = document.querySelectorAll(".character");
-    var chosenCharacter = document.getElementById("chosenCharacter");
-    console.log(chosenCharacter);
+    const characters = document.querySelectorAll(".character");
+    const chosenCharacter = document.getElementById("chosenCharacter");
 
-    // var attribute = characters.getAttribute("data-character");
-    var i = 0;
-    let childArray = [];
+    for (const characterElement of characters) {
+        const characterName = characterElement.dataset.character;
 
-    for (character of characters) {
-        i += 1;
-        if (character.firstElementChild != null) {
-            console.log("index Value: ");
-            console.log(i);
-            childArray.push(i);
-
-            console.log("hellooooooooooooooo");
-            console.log("character.firstElementChild: ");
-            console.log(character.firstElementChild);
-        }
-        // console.log("character: ");
-        // console.log(character);
-
-        console.log("getting attribute: ");
-        console.log(i);
-        console.log(childArray.length);
-        if (i <= childArray.length) {
-            var attribute = characters[
-                childArray[i]
-            ].firstElementChild.getAttribute("data-character");
-        }
-        console.log("NEW ATTRIBUTE ATEMPT");
-        console.log(attribute);
-        console.log("after showen: ");
-        // var attribute = character.getAttribute("data-character");
-        console.log(character.childNodes);
-        console.log("attribute: ");
-        console.log(attribute);
-        character.addEventListener("mouseover", function() {
-            console.log("this a for loop");
-            console.log(attribute);
-
-            if (attribute === "luigi") {
-                console.log("u did it!!!!!!!!!!!");
-            }
-        });
+        characterElement.addEventListener(
+            "mouseover",
+            () => (chosenCharacter.src = BIG_IMAGE_SRC[characterName])
+        );
     }
 }
 
