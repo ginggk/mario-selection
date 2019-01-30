@@ -4,28 +4,33 @@
 }
 
 
+body {
+    background-color: #4aa4d6;
+    padding: 2rem
+}
+
 .character {
     width: 5rem;
     height: 5rem;
-    background-color: lightgray;
     display: inline-block;
 }
 
 .character-details {
     display: flex;
-    padding-top: 25px;
-    padding-left: 25px;
 }
 
 
 .character-holder {
+    background-color: rgba(255, 255, 255, .3);
     width: 60rem;
     height: 30rem;
-    padding-right: 50px;
+    padding: 2rem;
 
 }
 
 .character-kart {
     align-items: flex-start;
     padding-left: 50px;
+    width: 30rem;
+    background-color: #4aa4d6;
 }
