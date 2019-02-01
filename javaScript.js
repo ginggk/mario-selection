@@ -29,7 +29,15 @@ const BIG_IMAGE_SRC = {
     Bowserjr: "./images/Bowserjr_Kart.png",
     Drybowser: "./images/Drybowser_Kart.png",
     Lemmy: "./images/Lemmy_Kart.png",
-    Larry: "./images/Larry_Kart.png"
+    Larry: "./images/Larry_Kart.png",
+    Wendy: "./images/Wendy_Kart.png",
+    Ludwig: "./images/Ludwig_Kart.png",
+    Iggy: "./images/Iggy_Kart.png",
+    Roy: "./images/Roy_Kart.png",
+    Morton: "./images/Morton_Kart.png",
+    Inklinggirl: "./images/Inklinggirl_Kart.png",
+    Inklingboy: "./images/Inklingboy_Kart.png",
+    Link: "./images/Link_Kart.png"
 };
 
 function listenForChange() {

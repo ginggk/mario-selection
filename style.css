@@ -28,6 +28,10 @@ body {
 
 }
 
+.character:hover {
+    background-color: yellow;
+}
+
 .character-kart {
     align-items: flex-start;
     padding-left: 50px;
