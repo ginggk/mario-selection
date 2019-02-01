@@ -13,6 +13,7 @@ body {
     width: 5rem;
     height: 5rem;
     display: inline-block;
+
 }
 
 .character-details {
@@ -32,9 +33,29 @@ body {
     background-color: yellow;
 }
 
+
+
 .character-kart {
     align-items: flex-start;
     padding-left: 50px;
     width: 30rem;
     background-color: #4aa4d6;
+}
+
+
+.info-holder {
+    text-align: center;
+}
+
+.chosenCharacterName {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    animation: wibblewobble 2s infinite linear;
+
+}
+
+@keyframes wibblewobble {
+    25% {
+        transform: rotate(20deg);
+    }
 }
