@@ -3,37 +3,32 @@
     padding: 0;
 }
 
-
 body {
     background-color: #4aa4d6;
-    padding: 2rem
+    padding: 2rem;
 }
 
 .character {
     width: 5rem;
     height: 5rem;
     display: inline-block;
-
 }
 
 .character-details {
     display: flex;
 }
 
-
 .character-holder {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, 0.3);
     width: 60rem;
     height: 30rem;
     padding: 2rem;
-
+    border: 2px solid gray;
 }
 
 .character:hover {
     background-color: yellow;
 }
-
-
 
 .character-kart {
     align-items: flex-start;
@@ -42,16 +37,14 @@ body {
     background-color: #4aa4d6;
 }
 
-
 .info-holder {
     text-align: center;
 }
 
 .chosenCharacterName {
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     animation: wibblewobble 2s infinite linear;
-
 }
 
 @keyframes wibblewobble {
