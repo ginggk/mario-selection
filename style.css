@@ -52,3 +52,13 @@ body {
         transform: rotate(20deg);
     }
 }
+
+.title {
+    font-family: 'Unica One', cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+
+}
