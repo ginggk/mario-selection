@@ -40,6 +40,10 @@ const BIG_IMAGE_SRC = {
     Link: "./images/Link_Kart.png"
 };
 
+for (const src in BIG_IMAGE_SRC) {
+    preload(BIG_IMAGE_SRC[src])
+}
+
 function listenForChange() {
     const characters = document.querySelectorAll(".character");
     const chosenCharacter = document.getElementById("chosenCharacter");
@@ -56,3 +60,9 @@ function listenForChange() {
 }
 
 listenForChange();
+
+
+function preload(src) {
+    const img = new Image()
+    img.src = src
+}
