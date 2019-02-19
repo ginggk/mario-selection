@@ -39,6 +39,7 @@ body {
 
 .info-holder {
     text-align: center;
+    width: 35rem;
 }
 
 .chosenCharacterName {
@@ -61,4 +62,11 @@ body {
     padding-bottom: 2rem;
 
 
+}
+
+.link {
+    color: white;
+    font-family: 'Unica One', cursive;
+    display: flex;
+    justify-content: center;
 }
