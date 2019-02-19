@@ -4,8 +4,10 @@
 }
 
 body {
-    background-color: #4aa4d6;
+    height: 100vh;
+    background: linear-gradient(20deg, rgb(0, 0, 139, .7), rgba(0, 0, 0, 0) 35%), url('./images/pattern.png');
     padding: 2rem;
+
 }
 
 .character {
@@ -34,7 +36,7 @@ body {
     align-items: flex-start;
     padding-left: 50px;
     width: 30rem;
-    background-color: #4aa4d6;
+
 }
 
 .info-holder {
@@ -68,7 +70,13 @@ body {
     color: white;
     font-family: 'Unica One', cursive;
 
+
+}
+
+footer {
     position: fixed;
     bottom: 0;
     padding-bottom: 2rem;
+    height: 2rem;
+
 }
